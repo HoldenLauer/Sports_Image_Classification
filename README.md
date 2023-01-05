@@ -21,7 +21,7 @@ As a group, we will communicate primarily through zoom and slack. All team membe
 <div id='id-Topic'/>
 
 ## Topic
-For our project, we chose to use images to train a classification model to determine which sport is being shown in the image. We selected this topic because as a group we are interested in working with image classification. As avid sports fans, we decided to combine our interests and make a model that will classify sports images. Our dashboard also includes some fun ways for sports fans to interact with NFL data and statistics. To learn more about our project, check out our Sports Images Classification Presentation on Google Slides.
+For our project, we chose to use images to train a classification model to determine which sport is being shown in the image. We selected this topic because as a group we are interested in working with image classification. As avid sports fans, we decided to combine our interests and make a model that will classify sports images. Our dashboard also includes some fun ways for sports fans to interact with NFL data and statistics. To learn more about our project, check out our [Sports Images Classification Presentation](https://docs.google.com/presentation/d/1-S3S3BavjbAaPhXl2o1AKQ4tD0uZM0gvGFtWtwbuPRY/edit#slide=id.g1cc6198fd61_0_328) on Google Slides.
 
 <p align="center">
     <img src="https://github.com/HoldenLauer/Dallas_Group_Project/blob/main/test/high%20jump/1.jpg" 
