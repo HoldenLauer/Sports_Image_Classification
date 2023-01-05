@@ -33,7 +33,7 @@ p>
 <div id='id-Database'/>
 
 ## Database
-The dataset we chose includes almost 15,000 rows of data that includes the file path to our images and the sport that the image is portraying. The dataset includes images from one hundred different sports. Our data source contains sets of training, testing, and valid images for our machine learning model. The original dataset was compiled from internet searches and posted on kaggle. There are no duplicate images in the dataset as the original creator of the dataset used a program to check for duplicates. With a clean dataset, we created an ERD and a SQL database on postgreSQL.
+The dataset we chose includes almost 15,000 rows of data that includes the file path to our images and the sport that the image is portraying. Our dataset came from [Kaggle, 100 Sports Image Classification](https://www.kaggle.com/datasets/gpiosenka/sports-classification). The dataset includes images from one hundred different sports. Our data source contains sets of training, testing, and valid images for our machine learning model. The original dataset was compiled from internet searches and posted on kaggle. There are no duplicate images in the dataset as the original creator of the dataset used a program to check for duplicates. With a clean dataset, we created an ERD and a SQL database on postgreSQL.
 
 <div id='id-mlm'/>
 
