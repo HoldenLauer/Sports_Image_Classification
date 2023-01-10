@@ -14,3 +14,15 @@ CREATE TABLE sports (
 	labels VARCHAR(40) NOT NULL,
 	data_set VARCHAR(5) NOT NULL
 );
+
+-- Joining the two databases together
+SELECT *
+INTO join_table
+FROM sports
+FULL OUTER JOIN class_dict
+ON sports.labels = class_dict.sport;
+
+-- Drop extraneous columns
+ALTER TABLE join_table
+	DROP COLUMN class_index,
+	DROP COLUMN labels;
