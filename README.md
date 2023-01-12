@@ -31,7 +31,7 @@ As a group, we will communicate primarily through zoom and slack. All team membe
 <div id='id-Topic'/>
 
 ## Topic
-For our project, we chose to use images to train a classification model to determine which sport is being shown in the image. We selected this topic because as a group we are interested in working with image classification. As avid sports fans, we decided to combine our interests and make a model that will classify sports images. Our dashboard also includes some fun ways for sports fans to interact with NFL data and statistics. To learn more about our project, check out our [Sports Images Classification Presentation](https://docs.google.com/presentation/d/1-S3S3BavjbAaPhXl2o1AKQ4tD0uZM0gvGFtWtwbuPRY/edit#slide=id.g1cc6198fd61_0_328) on Google Slides.
+For our project, we chose to use images to train a classification model to determine which sport is being shown in the image. We selected this topic because as a group we are interested in working with image classification. As avid sports fans, we decided to combine our interests and make a model that will classify sports images. Our dashboard also includes some fun ways for sports fans to see which sports are included in the dataset. To learn more about our project, check out our [Sports Images Classification Presentation](https://docs.google.com/presentation/d/1-S3S3BavjbAaPhXl2o1AKQ4tD0uZM0gvGFtWtwbuPRY/edit#slide=id.g1cc6198fd61_0_328) on Google Slides.
 
 <p align="center">
     <img src="https://github.com/HoldenLauer/Dallas_Group_Project/blob/Nicole/Images/topic_photo.jfif" 
@@ -92,11 +92,13 @@ We did not need to do much in terms of cleaning our data or checking for duplica
 <div id='id-DataPreprocessing'/>
 
 <ins>Data Preprocessing</ins>
+
 For our machine learning model, our data did not require preprocessing. One thing we did want to display in our machine learning document is a sample of images from our training and testing datasets. In order to display sample images, we plotted a figure using a for loop that pulled 9 random photos from the dataset and display the image and the label of the sport displayed in the image. 
 
 <div id='id-Features'/>
 
 <ins>Features</ins>
+
 We used two main features in our machine learning model, both of which came with our dataset. The first feature we needed to us was the filepath. The filepath column contained the filepath to each individual image in our image sets. This was essential in showing our model where to retrieve the images it would be testing with. The next feature in our dataset is the label. We needed this column of data because it told our model which sport was being displayed in the image it was viewing. This was ultimately what we created our model to predict. 
 
 Our dataset also came with a dataset column, which separated the images into training, testing, and validating sets. While this feature was helpful for our knowledge when we were exploring the data, we ultimately left it out of our model because we found it was easier to use the filepath to assign images to their respective sets.
