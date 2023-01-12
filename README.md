@@ -8,6 +8,11 @@ Final Project - Sports Images Classification
 ## Table of Contents
 - [Communication Protocol](#id-ComProtocol)
 - [Topic](#id-Topic)
+- [Technologies Used](#id-tu)
+    - [Data Preprocessing](#id-tu-dp)
+    - [Database Storage](#id-tu-db)
+    - [Machine Learning](#id-tu-mlm)
+    - [Dashboard](#id-tu-dashb)
 - [Data](#id-Data)
     - [Data Exploration](#id-DataExploration)
     - [Analysis](#id-Analysis)
@@ -34,6 +39,28 @@ For our project, we chose to use images to train a classification model to deter
         height="600" 
         style="display: block; margin: 0 auto" /
 p>
+
+<div id='id-tu'/>
+
+## Technologies Used
+
+<div id='id-tu-dp'/>
+
+<ins>Data Processing</ins>
+
+<div id='id-tu-db'/>
+
+<ins>Database Storage</ins>
+
+<div id='id-tu-mlm'/>
+
+<ins>Machine Learning</ins>
+
+<div id='id-tu-dashb'/>
+
+<ins>Dashboard</ins>
+
+For our [dashboard](https://public.tableau.com/app/profile/willow4625/viz/Histogram-Segment2/SheetRelations?publish=yes), we used Tableau to create a bar graph to display the different sports that were depicted in the images from our dataset. We wanted viewers of our project to know how robust the dataset was as it covers 100 different sports. Our initial bar chart shows the number of images in each category of sport. For example, there are 2,502 images of 'Ball Sports'. Our dashboard is interactive as well because you can click on one of the categories to see which sports are contained within that category. Using the 'Ball 'Sports' example, you can see that there are 16 individual sports within that category including football, baseball, basketball, etc. 
 
 <div id='id-Data'/>
 
@@ -85,4 +112,7 @@ Our dataset came already split into training, testing, and validating sets. In a
 <div id='id-Model'/>
 
 <ins>Machine Learning Model</ins>
-For this project, we chose a deep learning model. 
+
+For this project, we chose to use a sequential machine learning model to layer down the images. One reason we chose this model is because it is efficient for loading in the images from our dataset. Within the layers, we simplified the image to a more pixelated 2D image to train our model because initially the RGB values were too robust for our model. Ideally, we wanted to keep the input values smaller, so we scaled the data down for a more optimal model.
+
+After testing our sequential model, we decided to try a second model to see if we could improve our accuracy. As Keras includes some pretrained applications, we decided to use one that is trained to classify images, MobileNet2. Further along in our project we will include the results of testing both models and explain which one we ultimately feel was best for this project. 
