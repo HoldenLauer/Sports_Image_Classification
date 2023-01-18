@@ -20,7 +20,8 @@ Final Project - Sports Images Classification
     - [Data Preprocessing](#id-DataPreprocessing)
     - [Features](#id-Features)
     - [Training and Testing](#id-TnT)
-    - [Model](#id-Model)
+    - [Machine Learning Model](#id-Model)
+    - [Model Accuracy](#id-Accuracy)
 
 <div id='id-Topic'/>
 
@@ -118,3 +119,9 @@ Our dataset came already split into training, testing, and validating sets. In a
 For this project, we chose to use a sequential machine learning model to layer down the images. One reason we chose this model is because it is efficient for loading in the images from our dataset. Within the layers, we simplified the image to a more pixelated 2D image to train our model because initially the RGB values were too robust for our model. Ideally, we wanted to keep the input values smaller, so we scaled the data down for a more optimal model.
 
 After testing our sequential model, we decided to try a second model to see if we could improve our accuracy. As Keras includes some pretrained applications, we decided to use one that is trained to classify images, MobileNet2. Further along in our project we will include the results of testing both models and explain which one we ultimately feel was best for this project. 
+
+<div id='id-Accuracy'/>
+
+
+<ins>Model Accuracy</ins>
+
