@@ -6,7 +6,6 @@ Final Project - Sports Images Classification
 </h1>
 
 ## Table of Contents
-- [Communication Protocol](#id-ComProtocol)
 - [Topic](#id-Topic)
 - [Technologies Used](#id-tu)
     - [Data Preprocessing](#id-tu-dp)
@@ -43,13 +42,19 @@ p>
 
 <ins>Data Processing</ins>
 
+To process our data we mainly used excel. We added an additional feature to our dataset by categorizing each sport into 14 bins. Initially, we manually sorted our sports into their respective categories. Then, we used V-Lookup to add the category to each image. 
+
 <div id='id-tu-db'/>
 
 <ins>Database Storage</ins>
 
+We used PostgreSQL to store our data. We wanted to keep our data in a database so that we could easily join tables and access them from our machine learning model. Our model accesses the training and testing images directly from our SQL database. 
+
 <div id='id-tu-mlm'/>
 
 <ins>Machine Learning</ins>
+
+We used two different models for our machine learning. First, we used a sequential machine learning model to layer down the images. Then, we used MobileNet2 because it specifically trained to classify images. We tested both models to see which one would give us a higher accuracy. 
 
 <div id='id-tu-dashb'/>
 
