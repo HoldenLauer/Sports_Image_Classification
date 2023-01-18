@@ -23,11 +23,6 @@ Final Project - Sports Images Classification
     - [Training and Testing](#id-TnT)
     - [Model](#id-Model)
 
-<div id='id-ComProtocol'/>
-
-## Communication Protocol
-As a group, we will communicate primarily through zoom and slack. All team members are committed to sharing updates asynchronously through slack and meeting via zoom when we need to work together.
-
 <div id='id-Topic'/>
 
 ## Topic
