@@ -22,6 +22,9 @@ Final Project - Sports Images Classification
     - [Training and Testing](#id-TnT)
     - [Machine Learning Model](#id-Model)
     - [Model Accuracy](#id-Accuracy)
+- [Looking Ahead](#id-LookingAhead)
+    - [Possible Improvements](#id-PI)
+    - [Recommendations for Future Analysis](#id-RFA)
 
 <div id='id-Topic'/>
 
@@ -69,12 +72,13 @@ For our [dashboard](https://public.tableau.com/app/profile/willow4625/viz/Histog
 
 <div id='id-DataExploration'/>
 
-### Data Exploration
+<ins>Data Exploration</ins>
+
 The dataset we chose includes almost 15,000 rows of data that includes the file path to our images and the sport that the image is portraying. Our dataset came from [Kaggle, 100 Sports Image Classification](https://www.kaggle.com/datasets/gpiosenka/sports-classification). The dataset includes images from one hundred different sports. Our data source contains sets of training, testing, and valid images for our machine learning model. The original dataset was compiled from internet searches and posted on kaggle. There are no duplicate images in the dataset as the original creator of the dataset used a program to check for duplicates. With a clean dataset, we created an [Entity Relationship Diagram (ERD)](https://github.com/HoldenLauer/Dallas_Group_Project/blob/Nicole/Images/ERD.png) and a SQL database on postgreSQL.
 
 <div id='id-Analysis'/>
 
-### Analysis
+<ins>Analysis</ins>
 We did not need to do much in terms of cleaning our data or checking for duplicates because this was already completed by the original creator of the dataset. After establishing that our dataset was clean, we decided to add a "Category" field to our sports image csv. We wanted to group the sports into categories so that we could more easily visualize the different types of sports in our dataset. We created 14 categories to capture our dataset, making it more manageable than looking at 100 individual sports. We categorized our sports and added a column to our sports image csv using V-Lookup.
 
 <div id='id-mlm'/>
@@ -125,3 +129,15 @@ After testing our sequential model, we decided to try a second model to see if w
 
 <ins>Model Accuracy</ins>
 
+
+<div id='id-LookingAhead'/>
+
+## Looking Ahead
+
+<div id='id-PI'/>
+
+<ins>Possible Improvements</ins>
+
+<div id='id-RFA'/>
+
+<ins>Recommendations for Future Analysis</ins>
