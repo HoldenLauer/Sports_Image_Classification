@@ -129,6 +129,7 @@ After testing our sequential model, we decided to try a second model to see if w
 
 <ins>Model Accuracy</ins>
 
+Currently, our sequential model can correctly predict sports images at 41.27%. The MobileNet2 model is accurately predicting the correct sport 90.10% of the time. Once we are completely finished with training our models, we will add line graphs showing the accuracy and loss of our models. We will also add information and images of our confsion matrix. 
 
 <div id='id-LookingAhead'/>
 
@@ -138,6 +139,10 @@ After testing our sequential model, we decided to try a second model to see if w
 
 <ins>Possible Improvements</ins>
 
+One thing we would change about our project is we would want to make our dashboard more interactive. Due to time constraints, we added only one interactive element. However, if we were going to do something different, we would make it possible for people to adjust our sports vs. cost table to filter sports based on their cost. That way, parents could see only the sports that are within their budget. 
+
 <div id='id-RFA'/>
 
 <ins>Recommendations for Future Analysis</ins>
+
+For the future, we recommend creating a model that would show how accurately it is able to predict specific categories of sports. For example, it would be interesting to know if our model is able to predict "Ball Sports" with a higher accuracy than "Water Sports." We hypothesize that the model would be better able to predict sports with more identifiable equipment, and it would be interesting to see the results of categorical modeling. 
