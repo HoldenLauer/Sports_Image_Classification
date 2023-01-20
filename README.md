@@ -139,8 +139,7 @@ Currently, our sequential model can correctly predict sports images at 41.27%. T
 
 <ins>Possible Improvements</ins>
 
-One thing we would change about our project is we would want to make our dashboard more interactive. Due to time constraints, we added only one interactive element. However, if we were going to do something different, we would make it possible for people to adjust our sports vs. cost table to filter sports based on their cost. That way, parents could see only the sports that are within their budget. 
-
+One thing we would change about our project is we would want to make our dashboard more interactive. Due to time constraints, we added only one interactive element. However, if we were going to do something different, we would make it possible for people to adjust our sports vs. cost table to filter sports based on their cost. That way, parents could see only the sports that are within their budget.
 <div id='id-RFA'/>
 
 <ins>Recommendations for Future Analysis</ins>
